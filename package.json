@@ -17,5 +17,6 @@
   "license": "MIT License. Copyright Consensys LLC, and authors. All rights reserved.",
   "dependencies": {
     "bigmoby-web3": "0.15.3"
-  }
+  },
+  "license": "MIT"
 }
