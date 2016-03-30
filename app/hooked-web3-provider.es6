@@ -150,7 +150,7 @@ var factory = function(Web3) {
 };
 
 if (typeof module !== 'undefined') {
-  module.exports = factory(require("web3"));
+  module.exports = factory(require("bigmoby-web3"));
 } else {
   window.HookedWeb3Provider = factory(Web3);
 }

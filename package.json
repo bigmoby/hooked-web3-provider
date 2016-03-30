@@ -7,16 +7,25 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/bigmoby/hooked-web3-provider.git"
+    "url": "git+https://github.com/bigmoby/hooked-web3-provider.git"
   },
   "devDependencies": {
     "jquery": "*",
     "ethereumjs-accounts": "git+https://github.com/tcoulter/ethereumjs-accounts.git",
     "bignumber.js": "*"
   },
-  "license": "MIT License. Copyright Consensys LLC, and authors. All rights reserved.",
+  "license": "MIT",
   "dependencies": {
     "bigmoby-web3": "0.15.3"
   },
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/bigmoby/hooked-web3-provider/issues"
+  },
+  "homepage": "https://github.com/bigmoby/hooked-web3-provider#readme",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
